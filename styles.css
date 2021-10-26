@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /* Navigation */
 
 ul {
@@ -33,9 +37,83 @@ ul {
   }
 
   /* Social Icons */
+
   .fa-instagram {
     background: #125688;
     color: white;
   }
+
+  /* Product card */
+
+  .card {
+    max-width: 300px;
+    margin: 0px 20px 30px 20px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    width: 30%;
+  }
   
+  .price {
+    color: red;
+    font-size: 22px;
+  }
   
+  .card button {
+    border: none;
+    outline: auto;
+    outline-color: gray;
+    padding: 12px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 35%;
+    font-size: 14px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  section {
+      margin: auto;
+      margin-left: 15%;
+      margin-right: 15%;
+  }
+
+  /* PRODUCT LATER */
+  /* .third-row {
+      background-color: gray;
+      width: 100%;
+  } */
+  /* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 30px 20px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    width: 30%;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  } */
