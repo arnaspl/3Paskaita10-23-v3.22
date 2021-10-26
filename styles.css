@@ -98,23 +98,26 @@ ul {
     font-family: arial;
     float: left;
     width: 30%;
+    background-color: white;
   }
   
   .third-row-price {
     color: grey;
-    font-size: 22px;
+    font-size: 18px;
+    float: left;
+    padding: 12px;
+    width: 100%;
   }
   
-  .third-row-card button {
+   .third-row-button {
     border: none;
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
-    text-align: center;
+    background-color: #468AC9;
     cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+    font-size: 8px;
+    float: right;
   }
   
   .third-row-card button:hover {
