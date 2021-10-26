@@ -1,0 +1,41 @@
+/* Navigation */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li:first-child{
+      border: 4px solid;
+      border-color: #CCD3DB;
+      margin-top: 4px;
+      padding: 0px 8px;
+      float: left;
+  }
+
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #468AC9;
+  }
+
+  /* Social Icons */
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  
