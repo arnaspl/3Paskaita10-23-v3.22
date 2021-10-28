@@ -43,16 +43,12 @@ ul {
   /* Social Icons */
 
   .fa-instagram {
-    border-radius: 50%;
-    width: 30px;
     text-align: center;
     background: pink;
     color: white;
   }
 
   .fa-facebook {
-    border-radius: 50%;
-    width: 30px;
     background: #125688;
     color: white;
   }
