@@ -42,8 +42,17 @@ ul {
 
   /* Social Icons */
 
-  .fa-instagram {
+  .fa {
+    padding: 13px;
+    font-size: 30px;
+    width: 40px;
     text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-instagram {
     background: pink;
     color: white;
   }
@@ -71,9 +80,17 @@ ul {
   
   .price {
     color: red;
-    font-size: 22px;
+    font-size: 1.8vw;
   }
   
+   .card h1 {
+     font-size: 1.9vw;
+   }
+
+   .description {
+     font-size: 1.6vw;
+   }
+
   .card button {
     border: none;
     outline: auto;
@@ -83,8 +100,8 @@ ul {
     background-color: white;
     text-align: center;
     cursor: pointer;
-    width: 35%;
-    font-size: 12px;
+    width: 45%;
+    font-size: 1vw;
   }
   
   .card button:hover {
@@ -95,6 +112,7 @@ ul {
     width: 100%;
     padding-left: 15%;
     padding-right: 15%;
+    overflow: hidden;
   }
 
   /* PRODUCT LATER */
@@ -144,4 +162,38 @@ ul {
   
   .third-row-card button:hover {
     opacity: 0.7;
+  }
+
+  @media screen and (max-width:1456px){
+    main {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+
+  @media screen and (max-width:1275px){
+    main {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+
+  /* KEICIASI I DU COLUMN */
+  @media screen and (max-width:1132px){
+    main {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+
+  /* KEICIASI I 1 COLUMN */
+  @media screen and (max-width:1132px){
+    section {
+      flex-direction: column;
+    }
+    
+    main {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
   }
