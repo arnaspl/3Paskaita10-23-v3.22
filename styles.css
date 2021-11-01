@@ -76,6 +76,7 @@ ul {
     font-family: arial;
     float: left;
     width: 30%;
+    padding: 0 10px;
   }
   
   .price {
@@ -119,19 +120,34 @@ ul {
   .third-row {
       background-color: gray;
       width: 100%;
-      height: 600px;
       padding-top: 30px;
       float: left;
   }
-  .third-row-card {
+  /* .third-row-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    margin: 30px 20px;
+    padding: 30px 20px;
     text-align: center;
     font-family: arial;
     float: left;
     width: 30%;
     background-color: white;
+  } */
+
+  .third3-row {
+    background-color: gray;
+    padding-top: 30px;
+  }
+
+  .third-row-card {
+    max-width: 300px;
+    margin: 0px 20px 30px 20px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    width: 30%;
+    background-color: white;
+
   }
   
   .third-row-p {
@@ -164,6 +180,11 @@ ul {
     opacity: 0.7;
   }
 
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
   @media screen and (max-width:1456px){
     main {
       padding-left: 10%;
@@ -173,27 +194,79 @@ ul {
 
   @media screen and (max-width:1275px){
     main {
-      padding-left: 5%;
-      padding-right: 5%;
+      padding: 0 5%;
     }
   }
 
   /* KEICIASI I DU COLUMN */
   @media screen and (max-width:1132px){
-    main {
-      padding-left: 5%;
-      padding-right: 5%;
+    .card {
+      display:inline-block;
+      margin: 0 auto;
     }
+    .third-row-card {
+      width: 60%;
+      height: 100%;
+      margin: 20px 20px;
+      padding-bottom: 60px;
+      display:inline-block;
+    }
+    .third-row-price {
+      font-size: 1.8vw;
+    }
+    
+     .third-row-card h1 {
+       font-size: 1.9vw;
+     }
+  
+     .description {
+       font-size: 1.6vw;
+     }
+
+     .third-row-button {
+       width: 40%;
+       font-size: 1.2vw;
+     }
+
   }
 
   /* KEICIASI I 1 COLUMN */
-  @media screen and (max-width:1132px){
-    section {
-      flex-direction: column;
+  @media screen and (max-width:600px){
+    main {
+      text-align: center;
+    }
+    .card {
+      max-width: 500px;
+      text-align: center;
+      font-family: arial;
+      width: 60%;
+      margin: 0 auto;
+      float: none;
+    }
+    .third-row-card {
+      width: 60%;
+      height: 100%;
+      margin: 20px auto;
+      padding-bottom: 60px;
+      float: none;
     }
     
-    main {
-      padding-left: 5%;
-      padding-right: 5%;
+
+    .card button {
+      width: 65%;
+      font-size: 1.6vw;
     }
+
+    .card h1 {
+      font-size: 3vw;
+    }
+
+    .price {
+      color: red;
+      font-size: 2.8vw;
+    }
+  
+     .description {
+       font-size: 2vw;
+     }
   }
